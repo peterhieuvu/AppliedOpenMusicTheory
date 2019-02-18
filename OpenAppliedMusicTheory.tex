@@ -3,15 +3,37 @@
     \usepackage[margin=1in]{geometry}
     \usepackage[english]{babel}
     \usepackage{subfiles}
+    \usepackage{fancyhdr}
 
 \title{Open Applied Music Theory}
 \author{Peter Hieu Vu}
-\date{Latest Update: February 16, 2019}
+\date{Latest Update: \today}
+
+\pagestyle{fancy}
+
+\let\cleardoublepage=\clearpage
+
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
 
 \begin{document}
 
     \maketitle
-    
+
+    \frontmatter
+    \pagenumbering{gobble}
+    \chapter{About this book}
+
+    \tableofcontents
+    \pagenumbering{roman}
+
+    \setcounter{page}{1}
+    \chapter{Foreward}
     WIP :)
+
+    \mainmatter
+    \setcounter{page}{1}
+    \chapter{Introduction}
+    WIP too :)
     
 \end{document}
