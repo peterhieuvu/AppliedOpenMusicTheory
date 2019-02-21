@@ -4,6 +4,7 @@
     \usepackage[english]{babel}
     \usepackage{subfiles}
     \usepackage{fancyhdr}
+    \usepackage{titlesec}
 
 \title{Open Applied Music Theory}
 \author{Peter Hieu Vu}
@@ -20,6 +21,9 @@
 \setlength{\headheight}{10pt}
 
 \rhead{Chapter\hspace{4pt}\thechapter}
+
+\titleformat{\chapter}[display]
+  {\normalfont\small\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\Huge}
 
 \begin{document}
     \renewcommand{\onlyinsubfile}[1]{}
