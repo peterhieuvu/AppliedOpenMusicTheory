@@ -17,10 +17,12 @@
 
 \renewcommand{\theequation}{\thechapter.\arabic{equation}}
 
+\newcommand\sfchapter[2]{\setcounter{chapter}{\the\numexpr#2-1\relax}\onlyinsubfile{\chapter{#1}}}
+
 \pagestyle{fancy}
 \setlength{\headheight}{10pt}
 
-\rhead{Chapter\hspace{4pt}\thechapter}
+\rhead{Chapter\ \thechapter}
 
 \titleformat{\chapter}[display]
   {\normalfont\small\bfseries}{\chaptertitlename\ \thechapter}{10pt}{\Huge}
