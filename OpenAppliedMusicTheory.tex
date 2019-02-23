@@ -5,6 +5,7 @@
     \usepackage{subfiles}
     \usepackage{fancyhdr}
     \usepackage{titlesec}
+    \usepackage{parskip}
 
 \title{Open Applied Music Theory}
 \author{Peter Hieu Vu}
@@ -17,7 +18,8 @@
 
 \renewcommand{\theequation}{\thechapter.\arabic{equation}}
 
-\newcommand\sfchapter[2]{\setcounter{chapter}{\the\numexpr#2-1\relax}\onlyinsubfile{\chapter{#1}}}
+\newcommand\sfchapter[2]{\onlyinsubfile{\chapter{#1}\setcounter{chapter}{\the\numexpr#2-1\relax}}}
+\newcommand\sffront[1]{\onlyinsubfile{\chapter*{#1}}}
 
 \pagestyle{fancy}
 \setlength{\headheight}{10pt}
@@ -34,25 +36,19 @@
     \maketitle
 
     \frontmatter
-    \pagenumbering{gobble}
+    \chapter{Preface}
+        \subfile{chapters/preface}
+
+    \chapter{About}
+        \subfile{chapters/about}
 
     \tableofcontents
 
-    \pagenumbering{roman}
-    \setcounter{page}{1}
-
-    \chapter{Preface}
-        \subfile{chapters/preface}
-    WIP :)
-
-    \newpage
 
     \mainmatter 
-    \setcounter{page}{1}
     \setcounter{chapter}{-1}
     
     \chapter{Getting Started}
         \subfile{chapters/chapter0}
-    WIP too :)
     
 \end{document}
