@@ -26,12 +26,11 @@
 
 \rhead{Chapter\ \thechapter}
 
-\titleformat{\chapter}[display]
-  {\normalfont\small\bfseries}{\rule{\textwidth}{1pt}\\\chaptertitlename\ \thechapter}{10pt}{\Huge}
+\titleformat{\chapter}[display]{\normalfont\small\bfseries}{\rule{\textwidth}{1pt}\\\chaptertitlename\ \thechapter}{10pt}{\Huge}
+
+\titleformat{name=\chapter,numberless}[display]  {\normalfont\small\bfseries}{\rule{\textwidth}{1pt}}{10pt}{\Huge}
 
 % Commands
-
-\newcommand\titleLine[1]{\noindent\rule{\textwidth}{#1}}
 
 \newcommand\chord[1]{\textbf{#1}} %temporary, probably change later
 
@@ -45,7 +44,6 @@
 
     \frontmatter
     \chapter{Preface}
-    \rule{6cm}{1pt}
         \subfile{chapters/preface}
 
     \chapter{About}
