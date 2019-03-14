@@ -6,15 +6,16 @@
     \usepackage{fancyhdr}
     \usepackage{titlesec}
     \usepackage{parskip}
+    \usepackage{cleveref}
 
 \title{Open Applied Music Theory}
 \author{Peter Hieu Vu}
 \date{Latest Update: \today}
 
+%Make chapters only clear one page (no blank pages after chapters)
 \let\cleardoublepage\clearpage
 
-\newcommand\onlyinsubfile[1]{#1}
-\newcommand\notinsubfile[1]{}
+\crefname{chapter}{§}{§§} %TODO: Do something for sections and subsections too
 
 \renewcommand{\theequation}{\thechapter.\arabic{equation}}
 
@@ -26,11 +27,15 @@
 
 \rhead{Chapter\ \thechapter}
 
+%Format Chapter Titles
 \titleformat{\chapter}[display]{\normalfont\small\bfseries}{\rule{\textwidth}{1pt}\\\chaptertitlename\ \thechapter}{10pt}{\Huge}
 
 \titleformat{name=\chapter,numberless}[display]  {\normalfont\small\bfseries}{\rule{\textwidth}{1pt}}{10pt}{\Huge}
 
+
 % Commands
+\newcommand\onlyinsubfile[1]{#1}
+\newcommand\notinsubfile[1]{}
 
 \newcommand\chord[1]{\textbf{#1}} %temporary, probably change later
 
@@ -51,11 +56,13 @@
 
     \tableofcontents
 
+    \chapter{Disclaimer}
+        \subfile{chapters/disclaimer}
 
     \mainmatter 
     \setcounter{chapter}{-1}
     
-    \chapter{Getting Started}
+    \chapter{The basics}\label{ch.0}
         \subfile{chapters/chapter0}
     
 \end{document}
