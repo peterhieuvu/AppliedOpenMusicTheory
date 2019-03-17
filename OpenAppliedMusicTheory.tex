@@ -4,7 +4,7 @@
     \usepackage[english]{babel}
     \usepackage{subfiles}
     \usepackage{xr}
-        \externaldocument{chapter0}
+        \externaldocument{o-chapter0}
     \usepackage{fancyhdr}
     \usepackage{titlesec}
     \usepackage{parskip}
@@ -38,7 +38,8 @@
 \newcommand\notinsubfile[1]{}
 
 \newcommand\chord[1]{\textbf{#1}} %temporary, probably change later
-\newcommand\nref[1]{\S\ref{#1}/\pageref{#1}}
+\newcommand\nref[1]{\S-\ref{#1}/\pageref{#1}}
+\newcommand\pref[2]{\S-#1/#2}
 % end
 
 \begin{document}
@@ -62,8 +63,7 @@
     \mainmatter 
     \setcounter{chapter}{-1}
     
-    \chapter{The basics}\label{ch.0}
+    \chapter{Meta}\label{ch.0}
         \subfile{chapters/chapter0}
-        
 
 \end{document}
