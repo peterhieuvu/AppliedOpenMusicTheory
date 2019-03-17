@@ -3,6 +3,8 @@
     \usepackage[margin=1in]{geometry}
     \usepackage[english]{babel}
     \usepackage{subfiles}
+    \usepackage{xr}
+        \externaldocument{chapter0}
     \usepackage{fancyhdr}
     \usepackage{titlesec}
     \usepackage{parskip}
@@ -15,11 +17,9 @@
 %Make chapters only clear one page (no blank pages after chapters)
 \let\cleardoublepage\clearpage
 
-\crefname{chapter}{§}{§§} %TODO: Do something for sections and subsections too
-
 \renewcommand{\theequation}{\thechapter.\arabic{equation}}
 
-\newcommand\sfchapter[2]{\onlyinsubfile{\chapter{#1}\setcounter{chapter}{\the\numexpr#2-1\relax}}}
+\newcommand\sfchapter[2]{\onlyinsubfile{\setcounter{chapter}{\the\numexpr#2-1\relax}\chapter{#1}}}
 \newcommand\sffront[1]{\onlyinsubfile{\chapter*{#1}}}
 
 \pagestyle{fancy}
@@ -38,7 +38,7 @@
 \newcommand\notinsubfile[1]{}
 
 \newcommand\chord[1]{\textbf{#1}} %temporary, probably change later
-
+\newcommand\nref[1]{\S\ref{#1}/\pageref{#1}}
 % end
 
 \begin{document}
@@ -48,15 +48,15 @@
     \maketitle
 
     \frontmatter
-    \chapter{Preface}
+    \chapter{Preface}\label{preface}
         \subfile{chapters/preface}
 
-    \chapter{About}
+    \chapter{About}\label{about}
         \subfile{chapters/about}
 
     \tableofcontents
 
-    \chapter{Disclaimer}
+    \chapter{Disclaimer}\label{disclaimer}
         \subfile{chapters/disclaimer}
 
     \mainmatter 
@@ -64,5 +64,6 @@
     
     \chapter{The basics}\label{ch.0}
         \subfile{chapters/chapter0}
-    
+        
+
 \end{document}
