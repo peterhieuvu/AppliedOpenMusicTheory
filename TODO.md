@@ -1,7 +1,5 @@
 ## TODO List and Roadmap
 
-* Everything... :)
-
 * Better title and chapter heading formats
 
 * Refactor everything for better organization
@@ -11,3 +9,10 @@
 * Contact info
 
 * Copy right and license, very important
+
+* Reference System
+
+* Content (already stuff prepared)
+    -Circle of fifths
+    -Polyrhythms
+    -Polymeter
