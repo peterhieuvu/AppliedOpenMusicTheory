@@ -11,6 +11,7 @@
 * Copy right and license, very important
 
 * Reference System
+    -Clickable links
 
 * Content (already stuff prepared)
     -Circle of fifths

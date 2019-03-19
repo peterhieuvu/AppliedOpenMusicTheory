@@ -29,8 +29,10 @@
 
 %Format Chapter Titles
 \titleformat{\chapter}[display]{\normalfont\small\bfseries}{\rule{\textwidth}{1pt}\\\chaptertitlename\ \thechapter}{10pt}{\Huge}
+\titlespacing{\chapter}{0pt}{50pt}{30pt} %left, above title, below title
 
 \titleformat{name=\chapter,numberless}[display]  {\normalfont\small\bfseries}{\rule{\textwidth}{1pt}}{10pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{30pt}
 
 
 % Commands
@@ -65,5 +67,8 @@
     
     \chapter{Meta}\label{ch.0}
         \subfile{chapters/chapter0}
+
+    \chapter{The basics}\label{ch.1}
+        \subfile{chapters/chapter1}
 
 \end{document}
