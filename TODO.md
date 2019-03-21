@@ -10,6 +10,12 @@
 
 * Copy right and license, very important
 
+* Preface vs Meta
+    -Preface
+    -Meta
+        -Chapter layout
+        -Chapters may be different lengths
+
 * Reference System
     -Clickable links
 
