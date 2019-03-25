@@ -10,6 +10,8 @@
 
 * Copy right and license, very important
 
+* Consider lilypond
+
 * Preface vs Meta
     -Preface
     -Meta
