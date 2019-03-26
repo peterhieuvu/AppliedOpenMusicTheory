@@ -10,7 +10,7 @@
 
 * Copy right and license, very important
 
-* Consider lilypond
+* Consider LilyPond for examples
 
 * Preface vs Meta
     -Preface
@@ -20,6 +20,7 @@
 
 * Reference System
     -Clickable links
+    -At the very least clickable table of contents
 
 * Content (already stuff prepared)
     -Circle of fifths
