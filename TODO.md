@@ -12,6 +12,10 @@
 
 * Consider LilyPond for examples
 
+* Consider how to organize chapters to give a good overview of content, but also not clutter up the table of contents too much
+
+* Consider checkpoint system like my physics book
+
 * Preface vs Meta
     -Preface
     -Meta
