@@ -27,10 +27,8 @@
 \setlength{\headheight}{10pt}
 
 %headings
-\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
-\renewcommand{\sectionmark}[1]{ \markright{#1}{} }
-
-\chead{Chapter\ \thechapter}
+\renewcommand{\chaptermark}[1]{ \markboth{Ch.\thechapter\enspace #1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{\thesection\enspace #1}{} }
 
 %Format Chapter Titles
 \titleformat{\chapter}[display]{\normalfont\small\bfseries}{\rule{\textwidth}{1pt}\\\chaptertitlename\ \thechapter}{10pt}{\Huge}
