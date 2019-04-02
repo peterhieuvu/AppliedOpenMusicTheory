@@ -27,8 +27,8 @@
 \setlength{\headheight}{10pt}
 
 %headings
-\renewcommand{\chaptermark}[1]{ \markboth{Ch.\thechapter\enspace #1}{} }
-\renewcommand{\sectionmark}[1]{ \markright{\thesection\enspace #1}{} }
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{#1}{} }
 
 %Format Chapter Titles
 \titleformat{\chapter}[display]{\normalfont\small\bfseries}{\rule{\textwidth}{1pt}\\\chaptertitlename\ \thechapter}{10pt}{\Huge}
@@ -48,25 +48,28 @@
 % end
 
 \begin{document}
-    \renewcommand{\onlyinsubfile}[1]{}
-    \renewcommand{\notinsubfile}[1]{#1}
+\renewcommand{\onlyinsubfile}[1]{}
+\renewcommand{\notinsubfile}[1]{#1}
 
     \maketitle
-
+    
     \frontmatter
     \chapter{Preface}\label{preface}
-        \subfile{chapters/preface}
-
+    \subfile{chapters/preface}
+    
     \chapter{About}\label{about}
-        \subfile{chapters/about}
-
+    \subfile{chapters/about}
+    
     \tableofcontents
-
+    
     \chapter{Disclaimer}\label{disclaimer}
-        \subfile{chapters/disclaimer}
-
-    \mainmatter 
+    \subfile{chapters/disclaimer}
+    
+    \mainmatter
     \setcounter{chapter}{-1}
+    %headings
+    \renewcommand{\chaptermark}[1]{ \markboth{Ch.\thechapter\enspace #1}{} }
+    \renewcommand{\sectionmark}[1]{ \markright{\thesection\enspace #1}{} }
     
     \part{The basics}
 
