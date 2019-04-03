@@ -1,14 +1,10 @@
 ## TODO List and Roadmap
 
-* Better title and chapter heading formats
-
 * Refactor everything for better organization
-
-* Headers and footers
 
 * Contact info
 
-* Copy right and license, very important
+* Copyright and license, very important
 
 * Consider LilyPond for examples
 
