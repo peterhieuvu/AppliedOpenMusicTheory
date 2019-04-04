@@ -1,5 +1,7 @@
 # TODO List and Roadmap
 
+This is a list of tasks for anything except for specific content ideas. Those are instead going to be found in `CONTENT.md`.
+
 - [ ] Refactor everything for better organization
 
 - [ ] Contact info
@@ -17,7 +19,7 @@
 - [ ] Borders for checkpoint system and possibly asides/fun facts
     - To make it look more interesting :)
 
-- [ ] Preface vs Meta
+- [ ] Refine Chapter 0 (Preface vs Meta)
     - Preface
     - Meta
         - Chapter layout
@@ -30,6 +32,8 @@
 - [ ] Content Roadmap/TODO
     - Separate place to put ideas regarding content 
     - This document remains a place for the ideas regarding the book that don't have to do with content
+
+- [ ] Change Chapter 1 so that it introduces notation separately from the meanings behind the notation
 
 # Completed
 
