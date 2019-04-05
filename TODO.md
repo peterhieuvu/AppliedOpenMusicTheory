@@ -33,8 +33,6 @@ This is a list of tasks for anything except for specific content ideas. Those ar
     - Separate place to put ideas regarding content 
     - This document remains a place for the ideas regarding the book that don't have to do with content
 
-- [ ] Change Chapter 1 so that it introduces notation separately from the meanings behind the notation
-
 # Completed
 
 - [x] Better title and chapter heading formats
@@ -42,3 +40,5 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 - [x] Headers and footers
 
 - [x] Consider checkpoint system like my physics book
+
+- [x] Change Chapter 1 so that it introduces notation separately from the meanings behind the notation

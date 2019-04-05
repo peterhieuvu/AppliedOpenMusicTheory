@@ -1,0 +1,30 @@
+\documentclass[../OpenAppliedMusicTheory.tex]{subfiles}
+
+\externaldocument{../OpenAppliedMusicTheory}
+\externaldocument{chapter0}
+
+\begin{document}
+    
+
+\sfchapter{Fundamental Ideas}{1}
+
+    \section{Note Durations}\label{ch2:duration}
+        \subsection{Naked Note Durations}
+        \paragraph{Picture of some notes here with labels}
+        From left to right, the notes decrease in duration by a factor of two. If we look at the names then we can kind of think of them as fraction values and compare the relative magnitudes of these fractions. A whole note (\musWhole) would be like $1$, and a half note (\musHalf) would be like $\frac{1}{2}$. Therefore, a half note is half the duration of a whole note. Similarly, a quarter note (\musQuarter) is like $\frac{1}{4}$ and a sixteenth note (\musSixteenth) is like $\frac{1}{16}$. In this case $\frac{1}{16}$ is $4$ times smaller than $\frac{1}{4}$ and so a sixteenth note is four times shorter than a quarter note. Another way to think of this is that there are four sixteenth notes in a quarter note.
+
+        Another way to think of it is visually. Each thing that is added on halves the duration of the note. This is most obvious with quarter notes and shorter. Each time you add a flag, the note halves in duration. This idea is true for shorter durations too. If you take a whole note and add a stem, it becomes a half note which is half the duration. If you take the half note and fill in the circle, it becomes a quarter note which is, again, half the duration.
+
+        \subsection{Dotted Notes (with Augmentation Dots)}
+        The first one on the left is actually not an accidental nor an articulation. It might actually be better fit above in the notes section, but is here with the other disconnected markings for now. It's simply called a dot. Just like it looks. The dot lengthens whatever it is after by a factor of $\frac{1}{2}$. Remember how there are two quarter notes in the space of a half note? %TODO: checkpoint here to test how to fill a half note with something dotted like that
+        In this case, there would be a dotted quarter note and a eighth note in the space of a half note. There are two eighth notes in the space of a quarter note and so if a dotted quarter note is 1.5 times the duration, it should last the equivalent duration of 3 eighth notes. There are two quarter notes in a half note which is 4 eighth notes and so that would leave us with $4-3=1$ eighth note in addition to the dotted quarter note to fill the space of a half note.
+
+        Remember how I said that dots lengthen \emph{whatever} they are after by a factor of $\frac{1}{2}$? I deliberately used "whatever" instead of "note" because there can be notes with $2, 3, 4, \dots, \infty$ dots. Of course you won't really see more than 2 or maybe 3 in real world cases. In any case, though, they should be easy to understand if you already understand regular dots. They just multiply the duration of the thing before the dot by 1.5. 
+        
+        \paragraph{figure of subdivision} %TODO: also maybe introduce subdivision somewhere here
+
+        If we have a double dotted half note, well let's just break it down. The first dot adds half of the half note. Half of a half note is a quarter note. Now for the second dot we add another half of that. Half of a quarter note is an eighth note. In total, we have one half note plus a quarter note plus an eighth note. An additional dot would add a sixteenth note and so on. \emph{Fun fact: if there were infinite dots after a given note, the resultant note would have a duration equal to precisely twice the original note.}
+
+        %TODO: figure out why the sixteenth note is like this in musicology package
+
+\end{document}
