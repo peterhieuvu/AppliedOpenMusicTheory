@@ -6,10 +6,15 @@ All chapters will be listed even though there might not be an active task since 
 
 ## Chapter 0
 ## Chapter 1
-- [ ] Remove detail to focus on the notation
-- [ ] Move fundamental information to next chapter
+## Chapter 2
+- [ ] Pitches
+- [ ] Time Signatures
+    - [ ] Measures
+- [ ] Key Signatures
 
 ## Uncategorized Topics
+- [ ] Rests
+- [ ] Ties
 
 # Completed
 
