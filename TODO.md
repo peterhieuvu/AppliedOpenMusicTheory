@@ -27,11 +27,10 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 
 - [ ] Reference System
     - Clickable links
+    - Links for checkpoint
     - At the very least clickable table of contents
 
-- [ ] Content Roadmap/TODO
-    - Separate place to put ideas regarding content 
-    - This document remains a place for the ideas regarding the book that don't have to do with content
+- [ ] Better colors for aside and checkpoint
 
 # Completed
 
@@ -42,3 +41,7 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 - [x] Consider checkpoint system like my physics book
 
 - [x] Change Chapter 1 so that it introduces notation separately from the meanings behind the notation
+
+- [x] Content Roadmap/TODO
+    - Separate place to put ideas regarding content 
+    - This document remains a place for the ideas regarding the book that don't have to do with content

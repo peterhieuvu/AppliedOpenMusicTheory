@@ -39,6 +39,34 @@
 \titleformat{name=\chapter,numberless}[display]  {\normalfont\small\bfseries}{\rule{\textwidth}{1pt}}{10pt}{\Huge}
 \titlespacing*{\chapter}{0pt}{50pt}{30pt}
 
+%Aside and Checkpoint Environments
+
+\newenvironment{aside}[1]
+    {
+        \begin{tcolorbox}[
+            colback=red!10,
+            colframe=red!25,
+            coltitle=red!20!black,
+            title={Aside:\qquad#1}
+        ]      
+    }{          
+        \end{tcolorbox}
+    }
+
+\newcounter{checkpointCounter}[chapter]
+\newenvironment{checkpoint}
+    {
+        \addtocounter{checkpointCounter}{1}
+        \begin{tcolorbox}[
+            colback=green!10,
+            colframe=green!25,
+            coltitle=green!20!black,
+            title={Checkpoint \#\arabic{checkpointCounter}}
+        ]      
+    }{          
+        \end{tcolorbox}
+    }
+
 % Commands
 \newcommand\onlyinsubfile[1]{#1}
 \newcommand\notinsubfile[1]{}
@@ -46,7 +74,7 @@
 \newcommand\chord[1]{\textbf{#1}} %temporary, probably change later
 \newcommand\nref[1]{\S-\ref{#1}/\pageref{#1}}
 \newcommand\pref[2]{\S-#1/#2}
-\newcommand\checkpoint[1]{\overarc{CP}\ref{#1}/\pageref{#1}}
+\newcommand\cpref[1]{\overarc{CP}\ref{#1}/\pageref{#1}}
 % end
 
 \begin{document}
