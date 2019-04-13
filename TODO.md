@@ -32,6 +32,10 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 
 - [ ] Better colors for aside and checkpoint
 
+- [ ] Consistent usage of, we, I, this book, you, and the reader
+
+- [ ] Make a contribution guide to lay out conventions and styles
+
 # Completed
 
 - [x] Better title and chapter heading formats
