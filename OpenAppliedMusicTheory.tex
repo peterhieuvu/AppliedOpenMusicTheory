@@ -53,6 +53,18 @@
         \end{tcolorbox}
     }
 
+\newenvironment{Note}[1]
+    {
+        \begin{tcolorbox}[
+            colback=blue!10,
+            colframe=blue!25,
+            coltitle=blue!20!black,
+            title={Note:\qquad#1}
+        ]      
+    }{          
+        \end{tcolorbox}
+    }
+
 \newcounter{checkpointCounter}[chapter]
 \newenvironment{checkpoint}
     {
