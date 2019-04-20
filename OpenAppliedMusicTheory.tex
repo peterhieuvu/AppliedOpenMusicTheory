@@ -79,6 +79,18 @@
         \end{tcolorbox}
     }
 
+\newenvironment{cheatSheet}[1]
+    {
+        \begin{tcolorbox}[
+            colback=white,
+            colframe=gray,
+            coltitle=white,
+            title={Cheat Sheet:\quad#1}
+        ]
+    }{
+        \end{tcolorbox}
+    }
+
 % Commands
 \newcommand\onlyinsubfile[1]{#1}
 \newcommand\notinsubfile[1]{}
