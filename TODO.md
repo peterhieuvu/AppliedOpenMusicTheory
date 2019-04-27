@@ -32,6 +32,8 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 
 - [ ] Better colors for aside and checkpoint
 
+- [ ] Consider change of structure to more, but shorter chapters, and parts to separate groups of chapters.
+
 - [ ] Consistent usage of, we, I, this book, you, and the reader
 
 - [ ] Make a contribution guide to lay out conventions and styles
