@@ -17,6 +17,11 @@
 *.cb
 *.cb2
 
+### lilypond-book ###
+*.ly
+*.dep
+build/*.tex
+
 ## Intermediate documents:
 *.dvi
 *.xdv
