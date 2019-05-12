@@ -1,0 +1,86 @@
+\documentclass[../OpenAppliedMusicTheory.tex]{subfiles}
+
+\externaldocument{../OpenAppliedMusicTheory}
+\externaldocument{chapter0}
+
+\begin{document}
+    
+
+\sfchapter{Fundamental Ideas}{2}
+
+    Now that we have explained basic notation, we can move onto a bit more substantial concepts. There are fundamental ideas which will be explained here. These ideas are something maybe akin to learning how to add and subtract numbers in math.
+
+    \section{Notes and Rests (durations)}\label{ch2:duration}
+        \subsection{Naked Note Durations}
+        \paragraph{Picture of some notes here with labels}
+        From left to right, the notes decrease in duration by a factor of two. If we look at the names then we can kind of think of them as fraction values and compare the relative magnitudes of these fractions. A whole note (\musWhole) would be like $1$, and a half note (\musHalf) would be like $\frac{1}{2}$. Therefore, a half note is half the duration of a whole note. Similarly, a quarter note (\musQuarter) is like $\frac{1}{4}$ and a sixteenth note (\musSixteenth) is like $\frac{1}{16}$. In this case $\frac{1}{16}$ is $4$ times smaller than $\frac{1}{4}$ and so a sixteenth note is four times shorter than a quarter note. Another way to think of this is that there are four sixteenth notes in a quarter note.
+
+        Another way to think of it is visually. Each thing that is added on halves the duration of the note. This is most obvious with quarter notes and shorter. Each time you add a flag, the note halves in duration. This idea is true for shorter durations too. If you take a whole note and add a stem, it becomes a half note which is half the duration. If you take the half note and fill in the circle, it becomes a quarter note which is, again, half the duration.
+
+        \subsection{Dotted Notes (with Augmentation Dots)}
+        The first one on the left is actually not an accidental nor an articulation. It might actually be better fit above in the notes section, but is here with the other disconnected markings for now. It's simply called a dot. Just like it looks. The dot lengthens whatever it is after by a factor of $\frac{1}{2}$. Remember how there are two quarter notes in the space of a half note? %TODO: checkpoint here to test how to fill a half note with something dotted like that
+        \begin{note}{Quick question}
+            How do we fill a half note with a dotted note of some sort and another note?
+        \end{note}
+
+        In this case, there would be a dotted quarter note and a eighth note in the space of a half note. There are two eighth notes in the space of a quarter note and so if a dotted quarter note is 1.5 times the duration, it should last the equivalent duration of 3 eighth notes. There are two quarter notes in a half note which is 4 eighth notes and so that would leave us with $4-3=1$ eighth note in addition to the dotted quarter note to fill the space of a half note.
+
+        Remember how I said that dots lengthen \emph{whatever} they are after by a factor of $\frac{1}{2}$? I deliberately used "whatever" instead of "note" because there can be notes with $2, 3, 4, \dots, \infty$ dots. Of course you won't really see more than 2 or maybe 3 in real world cases. In any case, though, they should be easy to understand if you already understand regular dots. They just multiply the duration of the thing before the dot by 1.5. 
+
+        \paragraph{figure of subdivision}
+
+        If we have a double dotted half note, well let's just break it down. The first dot adds half of the half note. Half of a half note is a quarter note. Now for the second dot we add another half of that. Half of a quarter note is an eighth note. In total, we have one half note plus a quarter note plus an eighth note. An additional dot would add a sixteenth note and so on. \emph{Fun fact: if there were infinite dots after a given note, the resultant note would have a duration equal to precisely twice the original note.}
+
+        %TODO: figure out why the sixteenth note is like this in musicology package
+        \subsection{Subdivision}
+        If we look above to the previous picture, we'll see what's called \textbf{subdivision} happening. Subdivision is the division of notes or beats into smaller quantities (hence the name \emph{subdivision}). So a subdivision of a quarter note may be into two eighth notes where each of those are subdivided into two sixteen notes. Either that or the quarter note can be subdivided directly into four sixteenth notes.
+
+        \subsection{Rests}
+        \paragraph{picture of rests} Above is a picture of some rests. Rests are periods of "silence" or rest. Another way to think about it is just the absence of a note. On the left is a whole rest and it goes to the right with the same names as notes. Whole rest, then half rest, then quarter rest, then eighth rest, and so forth. 
+
+        As a way to remember what is what, the whole rest is hanging down because it's heavy or more massive whereas the half rest is on top because it's light enough to do so. From there just remember quarter rest since you'll see it very often. Eighth rests are like a half of a quarter rest and going on from there the smaller rests add a little extra knob. %TODO: is there a word that represents this?
+
+        \subsection{Ties}
+        \paragraph{picture of ties} These are ties. Ties are ways of connecting notes of the same pitch together. In the first case, this would result in a note with a duration equal to the sum of the durations of its parts. 
+
+        Why would we do this?
+
+        The first reason (in no particular order) is readability. We will explain meter and time signatures further in the next section, but you probably understand the idea that music has beats to it. For a performer reading music, knowing where beats are is useful to keep on track with everything. Yes we can display a quarter note and an eighth note as a dotted quarter note, but in certain cases it can be difficult to understand where the beat is and so it can be better to tie two notes together instead.
+
+        The second reason is to tie across measures. We will also learn about measures further in the next section, but measures are a way of grouping notes together. When you want a note to be held between measures, ties can be useful.
+    
+    \section{Meter and Time Signatures}\label{ch2:meter}
+        \subsection{Meter}
+        \textbf{Meter} is something that describes how music is organized with respect to time. In other words, it is something that determines how we should group notes together, as well as how we can count to the music. By this second definition, it becomes evident that meter is not always clear cut. For a given piece of music, it is possible that meter can be argued, but in many circumstances it \emph{is}, in fact, clear.
+
+        Moving on, there are are multitude of different meters. These can be split in two ways in western music. \textbf{Duple}, \textbf{triple}, and \textbf{quadruple} meter determine how we count the music. In other words, this determines the grouping of the beats. \textbf{Simple meter} and \textbf{compound meter} determine how we subdivide the beat. 
+
+        \paragraph{picture of subdivisions and groupings}As a result, duple meter would be counting in groups of two beats, triple in groups of three beats, and quadruple groups of four beats. Simple meters divide each beat into two, while compound meters divide each beat into three. 
+
+        These two classifications can be combined to give the meters we commonly use in western music. As an example, a simple quadruple music would be groups of four beats where each beat is divided into two. A compound duple meter would be groups two beats where each beat is divided into three.
+
+        \paragraph{example of these meters}
+
+        \subsection{Time Signatures}
+        \paragraph{picture of time signatures on staff}
+        We notate meter using time signatures. The bottom number determines the type of note that represents one beat (or a third of a beat in the case of compound meter) while the top number determines how many of the aforementioned notes should be grouped together.
+
+        Let's start with the bottom number. The bottom number of a duple meter determines directly the type of note that represents a beat. Remember how we thought of note durations as fractions? This bottom number would be the denominator of the fraction above. An eighth note would then be the number 8, a half note would be the number 8, etc. 
+
+        For a compound meter, the bottom number represents a  subdivision of the beat. Since compound meters first divide by three, %TODO: explain subdivision for compound meters
+        a meter where a dotted quarter note is the beat would have the denominator of an eighth note on the bottom. This is because there are three eighth notes inside of a dotted quarter note. Overall, however, you can remember this as a way to remember the note to use to count for the top number. %TODO: consider elaborating or rewriting this, it's confusing.
+
+        %TODO: Explain top number and explain how this all fits together
+        The top number is simple with respect to this. It simply represents how many of the notes (as denoted by the bottom number) should be grouped together. Let's look at a 3/4 time signature.
+        
+        \paragraph{3/4 time signature with a measure}
+        
+        The 4 on the bottom means to count the top number by quarter notes, and the 3 on the top number means that the meter groups notes 3 quarter notes as a time. This also is a good way to see the the type of meter since the numbers are unique in this way.\footnote{This is not necessarily true. There are situations where meter numbers may mean different things, but there are other ways to make sure this is counted right. In the future this may be elaborated on because we understand that the idea of time signatures is very confusing with respect to everything.} Numbers 2, 3, and 4 on the top often denote simple meters while numbers 6, 9, and 12 often denote compound meters. 2/4, 3/4, and 4/4 are likely the most common simple meters you'll see. 6/8, 9/8, and 12/8 are likely the most common compound meters you'll see. That being said, there are also simple meters like 2/2 and compound meters like 6/4 that you'll see around so having a denominator of 4 does not necessarily mean simple meter. 
+
+        \subsection{Measures}
+        Remember the groupings that are denoted by the top number with respect to the bottom number? Each of those groups fit in what is called a \textbf{measure}.   
+
+        \paragraph{measure picture}
+        A measure is denoted as a part of a score and is separated by bar lines. There are different types of bar lines like repeat bar lines, double bar lines, and ending bar lines. They mean different things and will be defined at the end of this chapter. Time signatures are a way to notate the meter of a piece of music where measures separate/hold groups of notes.
+
+\end{document}
