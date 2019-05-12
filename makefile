@@ -11,6 +11,7 @@ boatt:	OpenAppliedMusicTheory.tex
 soapt:	$(SUBDIR)/$(SUBFILE).lytex
 	lilypond-book --output=$(OUTDIR)/$(SUBDIR) --pdf $(SUBDIR)/$(SUBFILE).lytex
 	cd $(OUTDIR)/$(SUBDIR) && \
+	sed -i 's/\\usepackage{graphics}//g' $(SUBFILE).tex
 	latexmk -pdf $(SUBFILE).tex
 
 soaptt:	$(SUBDIR)/$(SUBFILE).tex

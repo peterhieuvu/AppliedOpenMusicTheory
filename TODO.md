@@ -8,8 +8,6 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 
 - [ ] Copyright and license, very important
 
-- [ ] Consider LilyPond for examples
-
 - [ ] Consider labeling subsections too
 
 - [ ] Explain and go over bold vocab words
@@ -38,6 +36,8 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 
 - [ ] Make a contribution guide to lay out conventions and styles
 
+- [ ] More complete build system to automatically build all files rather than just the source
+
 # Completed
 
 - [x] Better title and chapter heading formats
@@ -51,3 +51,4 @@ This is a list of tasks for anything except for specific content ideas. Those ar
 - [x] Content Roadmap/TODO
     - Separate place to put ideas regarding content 
     - This document remains a place for the ideas regarding the book that don't have to do with content
+- [x] Consider LilyPond for examples
